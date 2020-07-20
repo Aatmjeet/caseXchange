@@ -1,4 +1,5 @@
-#232931
-#393e46
-#4ecca3
-#eeeeee
+#232931 (bg- grey)
+#393e46	(lighter grey)
+#4ecca3 (cyan)
+#eeeeee	(white)
+#ff6f28 (orange)

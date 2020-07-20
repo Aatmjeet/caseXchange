@@ -222,7 +222,7 @@ $(function() {
 
     socket.on('site', function(data) {
         app.site = data;
-        window.document.title = data.header ;
+        window.document.title = data.header + ' | Web-based CS:GO Trading Bot';
     });
 
     socket.on('offer status', function(data) {

@@ -4,9 +4,13 @@ body {
     background: url(../img/bg.png) repeat;
 }
 
+.header {
+    background-color: #232931;
+    padding: -50px -50px;
+}
+
 #app {
-    margin-top: 0px;
-    margin-left :0px;
+    margin-top: -10px;
 }
 hr {
     opacity: 0.25;
@@ -22,6 +26,7 @@ hr {
 
 .panel-default {
     border: none;
+
 }
 input:not(:placeholder-shown) {
    background-color:  #eeeeee!important;
@@ -114,7 +119,7 @@ input:placeholder-shown {
 .csgo-item--wear {
     position: absolute;
     top: 5px; right: 5px;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, 1);
     padding: 1px 3px;
     z-index: 2;
 }
@@ -196,4 +201,11 @@ footer.footer {
 .navbar-left{
     font-size: 20px;
     text-align: center;
+}
+.navbar-default{
+    background-color:#ffffff;
+}
+
+.container-fluid{
+
 }
