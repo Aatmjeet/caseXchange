@@ -15,7 +15,7 @@ const SteamStrategy = require('passport-steam').Strategy
 const TradeBot = require('./lib/index')
 
 const Trade = new TradeBot({ io })
-const config = require('./config')
+const config = require('./config/config')
 // Web server
 server.listen(config.websitePort)
 console.log('[!] Website server is online.')
